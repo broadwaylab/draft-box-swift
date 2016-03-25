@@ -1,0 +1,16 @@
+PODS:
+  - EAIntroView (2.8.1):
+    - EARestrictedScrollView (~> 0.2.0)
+  - EARestrictedScrollView (0.2.0)
+  - SWTableViewCell (0.3.7)
+
+DEPENDENCIES:
+  - EAIntroView (~> 2.8.0)
+  - SWTableViewCell (~> 0.3.7)
+
+SPEC CHECKSUMS:
+  EAIntroView: 73abfa89caa311f450af876421d950b96679e845
+  EARestrictedScrollView: f86d61e16c61d3e93c84f8e96e83122a2a3b7631
+  SWTableViewCell: 2a94aadc9d47b2b611fa064566bf57948b95b579
+
+COCOAPODS: 0.39.0
