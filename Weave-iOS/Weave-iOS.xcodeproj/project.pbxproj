@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DCDEF5D1CA054C900F08908 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCDEF5C1CA054C900F08908 /* AppDelegate.swift */; };
+		9DCDEF5F1CA054C900F08908 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCDEF5E1CA054C900F08908 /* ViewController.swift */; };
+		9DCDEF621CA054C900F08908 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DCDEF601CA054C900F08908 /* Main.storyboard */; };
+		9DCDEF641CA054C900F08908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DCDEF631CA054C900F08908 /* Assets.xcassets */; };
+		9DCDEF671CA054C900F08908 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DCDEF651CA054C900F08908 /* LaunchScreen.storyboard */; };
+		9DCDEF721CA054C900F08908 /* Weave_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCDEF711CA054C900F08908 /* Weave_iOSTests.swift */; };
+		9DCDEF7D1CA054C900F08908 /* Weave_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCDEF7C1CA054C900F08908 /* Weave_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DCDEF6E1CA054C900F08908 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DCDEF511CA054C900F08908 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DCDEF581CA054C900F08908;
+			remoteInfo = "Weave-iOS";
+		};
+		9DCDEF791CA054C900F08908 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DCDEF511CA054C900F08908 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DCDEF581CA054C900F08908;
+			remoteInfo = "Weave-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9DCDEF591CA054C900F08908 /* Weave-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weave-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DCDEF5C1CA054C900F08908 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DCDEF5E1CA054C900F08908 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DCDEF611CA054C900F08908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DCDEF631CA054C900F08908 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DCDEF661CA054C900F08908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DCDEF681CA054C900F08908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DCDEF6D1CA054C900F08908 /* Weave-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weave-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DCDEF711CA054C900F08908 /* Weave_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weave_iOSTests.swift; sourceTree = "<group>"; };
+		9DCDEF731CA054C900F08908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DCDEF781CA054C900F08908 /* Weave-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weave-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DCDEF7C1CA054C900F08908 /* Weave_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weave_iOSUITests.swift; sourceTree = "<group>"; };
+		9DCDEF7E1CA054C900F08908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DCDEF561CA054C900F08908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DCDEF6A1CA054C900F08908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DCDEF751CA054C900F08908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DCDEF501CA054C900F08908 = {
+			isa = PBXGroup;
+			children = (
+				9DCDEF5B1CA054C900F08908 /* Weave-iOS */,
+				9DCDEF701CA054C900F08908 /* Weave-iOSTests */,
+				9DCDEF7B1CA054C900F08908 /* Weave-iOSUITests */,
+				9DCDEF5A1CA054C900F08908 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DCDEF5A1CA054C900F08908 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DCDEF591CA054C900F08908 /* Weave-iOS.app */,
+				9DCDEF6D1CA054C900F08908 /* Weave-iOSTests.xctest */,
+				9DCDEF781CA054C900F08908 /* Weave-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DCDEF5B1CA054C900F08908 /* Weave-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9DCDEF5C1CA054C900F08908 /* AppDelegate.swift */,
+				9DCDEF5E1CA054C900F08908 /* ViewController.swift */,
+				9DCDEF601CA054C900F08908 /* Main.storyboard */,
+				9DCDEF631CA054C900F08908 /* Assets.xcassets */,
+				9DCDEF651CA054C900F08908 /* LaunchScreen.storyboard */,
+				9DCDEF681CA054C900F08908 /* Info.plist */,
+			);
+			path = "Weave-iOS";
+			sourceTree = "<group>";
+		};
+		9DCDEF701CA054C900F08908 /* Weave-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DCDEF711CA054C900F08908 /* Weave_iOSTests.swift */,
+				9DCDEF731CA054C900F08908 /* Info.plist */,
+			);
+			path = "Weave-iOSTests";
+			sourceTree = "<group>";
+		};
+		9DCDEF7B1CA054C900F08908 /* Weave-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9DCDEF7C1CA054C900F08908 /* Weave_iOSUITests.swift */,
+				9DCDEF7E1CA054C900F08908 /* Info.plist */,
+			);
+			path = "Weave-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DCDEF581CA054C900F08908 /* Weave-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DCDEF811CA054C900F08908 /* Build configuration list for PBXNativeTarget "Weave-iOS" */;
+			buildPhases = (
+				9DCDEF551CA054C900F08908 /* Sources */,
+				9DCDEF561CA054C900F08908 /* Frameworks */,
+				9DCDEF571CA054C900F08908 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Weave-iOS";
+			productName = "Weave-iOS";
+			productReference = 9DCDEF591CA054C900F08908 /* Weave-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DCDEF6C1CA054C900F08908 /* Weave-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DCDEF841CA054C900F08908 /* Build configuration list for PBXNativeTarget "Weave-iOSTests" */;
+			buildPhases = (
+				9DCDEF691CA054C900F08908 /* Sources */,
+				9DCDEF6A1CA054C900F08908 /* Frameworks */,
+				9DCDEF6B1CA054C900F08908 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DCDEF6F1CA054C900F08908 /* PBXTargetDependency */,
+			);
+			name = "Weave-iOSTests";
+			productName = "Weave-iOSTests";
+			productReference = 9DCDEF6D1CA054C900F08908 /* Weave-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9DCDEF771CA054C900F08908 /* Weave-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DCDEF871CA054C900F08908 /* Build configuration list for PBXNativeTarget "Weave-iOSUITests" */;
+			buildPhases = (
+				9DCDEF741CA054C900F08908 /* Sources */,
+				9DCDEF751CA054C900F08908 /* Frameworks */,
+				9DCDEF761CA054C900F08908 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DCDEF7A1CA054C900F08908 /* PBXTargetDependency */,
+			);
+			name = "Weave-iOSUITests";
+			productName = "Weave-iOSUITests";
+			productReference = 9DCDEF781CA054C900F08908 /* Weave-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DCDEF511CA054C900F08908 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Broadway Lab, Inc.";
+				TargetAttributes = {
+					9DCDEF581CA054C900F08908 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					9DCDEF6C1CA054C900F08908 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 9DCDEF581CA054C900F08908;
+					};
+					9DCDEF771CA054C900F08908 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 9DCDEF581CA054C900F08908;
+					};
+				};
+			};
+			buildConfigurationList = 9DCDEF541CA054C900F08908 /* Build configuration list for PBXProject "Weave-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DCDEF501CA054C900F08908;
+			productRefGroup = 9DCDEF5A1CA054C900F08908 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DCDEF581CA054C900F08908 /* Weave-iOS */,
+				9DCDEF6C1CA054C900F08908 /* Weave-iOSTests */,
+				9DCDEF771CA054C900F08908 /* Weave-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DCDEF571CA054C900F08908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DCDEF671CA054C900F08908 /* LaunchScreen.storyboard in Resources */,
+				9DCDEF641CA054C900F08908 /* Assets.xcassets in Resources */,
+				9DCDEF621CA054C900F08908 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DCDEF6B1CA054C900F08908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DCDEF761CA054C900F08908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DCDEF551CA054C900F08908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DCDEF5F1CA054C900F08908 /* ViewController.swift in Sources */,
+				9DCDEF5D1CA054C900F08908 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DCDEF691CA054C900F08908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DCDEF721CA054C900F08908 /* Weave_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DCDEF741CA054C900F08908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DCDEF7D1CA054C900F08908 /* Weave_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DCDEF6F1CA054C900F08908 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DCDEF581CA054C900F08908 /* Weave-iOS */;
+			targetProxy = 9DCDEF6E1CA054C900F08908 /* PBXContainerItemProxy */;
+		};
+		9DCDEF7A1CA054C900F08908 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DCDEF581CA054C900F08908 /* Weave-iOS */;
+			targetProxy = 9DCDEF791CA054C900F08908 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DCDEF601CA054C900F08908 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DCDEF611CA054C900F08908 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DCDEF651CA054C900F08908 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DCDEF661CA054C900F08908 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DCDEF7F1CA054C900F08908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DCDEF801CA054C900F08908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DCDEF821CA054C900F08908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Weave-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.weave.Weave-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9DCDEF831CA054C900F08908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Weave-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.weave.Weave-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9DCDEF851CA054C900F08908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Weave-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.weave.Weave-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weave-iOS.app/Weave-iOS";
+			};
+			name = Debug;
+		};
+		9DCDEF861CA054C900F08908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Weave-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.weave.Weave-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weave-iOS.app/Weave-iOS";
+			};
+			name = Release;
+		};
+		9DCDEF881CA054C900F08908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Weave-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.weave.Weave-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Weave-iOS";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9DCDEF891CA054C900F08908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Weave-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.weave.Weave-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Weave-iOS";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DCDEF541CA054C900F08908 /* Build configuration list for PBXProject "Weave-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DCDEF7F1CA054C900F08908 /* Debug */,
+				9DCDEF801CA054C900F08908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DCDEF811CA054C900F08908 /* Build configuration list for PBXNativeTarget "Weave-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DCDEF821CA054C900F08908 /* Debug */,
+				9DCDEF831CA054C900F08908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9DCDEF841CA054C900F08908 /* Build configuration list for PBXNativeTarget "Weave-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DCDEF851CA054C900F08908 /* Debug */,
+				9DCDEF861CA054C900F08908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9DCDEF871CA054C900F08908 /* Build configuration list for PBXNativeTarget "Weave-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DCDEF881CA054C900F08908 /* Debug */,
+				9DCDEF891CA054C900F08908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DCDEF511CA054C900F08908 /* Project object */;
+}
